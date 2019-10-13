@@ -1,0 +1,17 @@
+family:
+  family-name: "happy \n family"
+  father:
+    name: czf
+    age: ${random.int}
+  mother:
+    alias:
+      - lovly
+      - alice
+  child:
+    name: kobe
+    age: ${father.age:5}
+    friends:
+      - hobby: football
+        sex: male
+      - hobby: basketball
+        sex: female
